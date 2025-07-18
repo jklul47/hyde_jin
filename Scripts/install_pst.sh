@@ -83,15 +83,3 @@ if ! pkg_installed flatpak; then
 else
     print_log -y "[FLATPAK]" -b " :: " "flatpak is already installed"
 fi
-
-# install extra themes
-if [ -f "${scrDir}/theme_install.sh" ]; then
-    print_log -g "[THEME] " -b " :: " "Installing extra themes..."
-    if [ ${flg_DryRun} -eq 1 ]; then
-        print_log -y "[THEME] " -b " :: " "Dry run mode, skipping theme installation"
-    else
-        "${scrDir}/theme_install.sh"
-    fi
-else
-    print_log -y "[THEME] " -b " :: " "theme_install.sh not found, skipping theme installation"
-fi

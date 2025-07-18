@@ -32,7 +32,7 @@ spicetify-cli                                          # cli to customize spotif
 neovim                                                 # vim based text editor
 
 # --------------------------------------------------- // Shell
-oh-my-zsh-git|zsh                                      # Optional plugin manager for zsh
+# oh-my-zsh-git|zsh                                      # Optional plugin manager for zsh
 # pokemon-colorscripts-git|zsh                           # display pokemon sprites (optional)
 # pokego-bin|zsh                                         # display pokemon sprites in terminal (written GO)
 zsh-theme-powerlevel10k-git|zsh                        # Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.

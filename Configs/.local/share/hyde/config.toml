@@ -151,7 +151,7 @@ standby = "🎶"  # Standby character for cava.
 
 # Hypr configuration.
 [hypr.config]
-sanitize = [".*rgba\(.*,.*,.*,.*\)"]  # List of regex to sanitize in the theme.config.
+sanitize = ['.*rgba\(.*,.*,.*,.*\)']  # List of regex to sanitize in the theme.config.
 
 # volumecontrol.sh configuration.
 [volume]

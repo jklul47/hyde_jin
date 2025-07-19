@@ -105,6 +105,7 @@ S|${HOME}/.config|kdeglobals|dolphin
 S|${HOME}/.local/share/kio/servicemenus|hydewallpaper.desktop|dolphin
 S|${HOME}/.local/share/kxmlgui5|dolphin|dolphin
 S|${HOME}/.local/share|dolphin|dolphin
+P|${HOME}/.config/yazi|yazi.toml keymap.toml theme.toml|yazi
 
  Input 
 P|${HOME}/.config|libinput-gestures.conf|libinput-gestures

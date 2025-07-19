@@ -1,0 +1,11 @@
+[mgr]
+show_hidden = true
+
+linemode = "size_and_mtime"
+
+play = [
+	{ run = 'vlc "$@"', orphan = true, for = "unix" },
+]
+edit = [
+	{ run = '$EDITOR "$@"', block = true, for = "unix" }
+]
